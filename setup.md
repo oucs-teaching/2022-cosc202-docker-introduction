@@ -51,7 +51,7 @@ If you are unable to follow the above instructions to install Docker Desktop on 
 
 Ideally, you will be able to install the Docker Desktop software, following the
 [Docker website's documentation](https://docs.docker.com/docker-for-mac/install/).
-The current version of the Docker Desktop software requires macOS version 10.14 (Mojave) or later.
+The current version of the Docker Desktop software requires macOS version 10.15 (Catalina) or later.
 
 If you already use Homebrew or MacPorts to manage your software, and would prefer to use those
 tools rather than Docker's installer, you can do so. For Homebrew, you can run the command
