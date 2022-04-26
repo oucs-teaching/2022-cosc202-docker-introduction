@@ -59,11 +59,11 @@ You can now request that a container is created that will compile the files in t
 
 For macOS, Linux and PowerShell:
 ~~~
-$ docker run --rm -it --mount type=bind,source=${PWD},target=/srv/jekyll -p 127.0.0.1:4000:4000 jekyll/jekyll:pages jekyll serve
+$ docker run --rm -it --mount type=bind,source=${PWD},target=/srv/jekyll -p 127.0.0.1:4000:4000 jekyll/jekyll:3 jekyll serve
 ~~~
 {: .language-bash}
 
-When I ran the macOS command, the output was as follows:
+When I ran the macOS command, the output was as follows (note that a different tag was used, so your output will not exactly match this output):
 ~~~
 Unable to find image 'jekyll/jekyll:pages' locally
 pages: Pulling from jekyll/jekyll
